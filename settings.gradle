@@ -1,1 +1,2 @@
-include ':app', ':libuvccamera-release', ':opencv', ':usbCameraCommon-release'
+include ':app', ':libuvccamera-release', ':opencv', ':usbCameraCommon-debug'
+//project(":usbCameraCommon-debug").projectDir = file("../UVCCamera/usbCameraCommon")
